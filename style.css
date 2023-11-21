@@ -1,0 +1,39 @@
+section {
+    border: 2px solid red;
+}
+
+.iphone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+.iphone img {
+    width: 20rem;
+}
+
+.iphone p {
+    width: 30rem;
+    text-align: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.samsung {
+    display: flex;
+    align-items: center;
+
+}
+
+.samsung img {
+    width: 20rem;
+}
+
+.samsung p {
+    width: 30rem;
+    text-align: center;
+}
